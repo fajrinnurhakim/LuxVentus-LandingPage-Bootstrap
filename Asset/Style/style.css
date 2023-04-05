@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(249, 249, 249, 1);
+    ;
+}
+
+.background {
+    background-image: url(/Asset/Image/Hero1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 559px;
+}
+
+.btn {
+    background-color: rgba(76,224,215,1);
+    border: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgba(76,224,215,1);
+    border: none;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid rgba(76,224,215,1);
+}
+
+.hometext h4{
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+}
+
+.hometext h1{
+    font-size: 46px;
+    font-weight: 400;
+    color: white;
+}
+
+.hometext span{
+    font-size: 46px;
+    font-weight: 700;
+    background: linear-gradient(50deg, rgba(76,224,215,1) 0%, rgba(139,169,244,1) 57%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.hometext p{
+    font-weight: 200;
+    color: white;
+}
+
+@media (max-width:1080px) {
+    .hometext {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    .background{
+        border-radius: 20px;
+        background-size: cover;
+        
+    }
+    
+}
+
+.fashion-background {
+    background-image: url(/Asset/Image/fashion.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 325px;
+}
+
+.card {
+    border-radius: 20px;
+}
